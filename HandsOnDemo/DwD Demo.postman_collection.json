@@ -1242,7 +1242,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "[{\r\n    \"@type\": \"ContributedAssetLocation\",\r\n    \"timestamp\": \"2019-12-05T05:00:00.000Z\",\r\n    \"geometry\": \"{\\\"type\\\": \\\"Feature\\\",\\\"geometry\\\": {\\\"geometries\\\": [{\\\"coordinates\\\": [8.4755, 49.4728],\\\"type\\\": \\\"Point\\\"}],\\\"type\\\": \\\"GeometryCollection\\\"}}\",\r\n    \"measurementData\": [{\r\n                    \"@type\": \"BasicMeasurement\",\r\n                    \"name\": \"[Temperature](https://developer.deere.com)\",\r\n                    \"value\": \"32.6\",\r\n                    \"unit\": \"C\"\r\n    }, {\r\n                    \"@type\": \"BasicMeasurement\",\r\n                    \"name\": \"[Fuel Level](https://developer.deere.com)\",\r\n                    \"value\": \"36\",\r\n                    \"unit\": \"%\"\r\n    }, {\r\n                    \"@type\": \"BasicMeasurement\",\r\n                    \"name\": \"[Engine Speed](https://developer.deere.com)\",\r\n                    \"value\": \"4203\",\r\n                    \"unit\": \"RPM\"\r\n    }, {\r\n                    \"@type\": \"BasicMeasurement\",\r\n                    \"name\": \"[Humidity](https://developer.deere.com)\",\r\n                    \"value\": \"22.2\",\r\n                    \"unit\": \"%\" \r\n    }, {\r\n                    \"@type\": \"BasicMeasurement\",\r\n                    \"name\": \"[Wind Speed](https://developer.deere.com)\",\r\n                    \"value\": \"11.3\",\r\n                    \"unit\": \"MPH\"\r\n    }, {\r\n                    \"@type\": \"BasicMeasurement\",\r\n                    \"name\": \"[Rain Fall](https://developer.deere.com)\",\r\n                    \"value\": \"1.5\",\r\n                    \"unit\": \"Inches\"\r\n    }, {\r\n                    \"@type\": \"BasicMeasurement\",\r\n                    \"name\": \"[Model](https://developer.deere.com)\",\r\n                    \"value\": \"300ACZ\",\r\n                    \"unit\": \"Premium\" \r\n    }, {\r\n                    \"@type\": \"BasicMeasurement\",\r\n                    \"name\": \"[Software Version](https://developer.deere.com)\",\r\n                    \"value\": \"3.0.2\",\r\n                    \"unit\": \"Beta\"                     \r\n    }]\r\n}]"
+							"raw": "[{\r\n    \"@type\": \"ContributedAssetLocation\",\r\n    \"timestamp\": \"2020-01-26T06:00:00.000Z\",\r\n    \"geometry\": \"{\\\"type\\\": \\\"Feature\\\",\\\"geometry\\\": {\\\"geometries\\\": [{\\\"coordinates\\\": [-90.1922, 38.6306],\\\"type\\\": \\\"Point\\\"}],\\\"type\\\": \\\"GeometryCollection\\\"}}\",\r\n    \"measurementData\": [{\r\n                    \"@type\": \"BasicMeasurement\",\r\n                    \"name\": \"[Temperature](https://developer.deere.com)\",\r\n                    \"value\": \"32.6\",\r\n                    \"unit\": \"C\"\r\n    }, {\r\n                    \"@type\": \"BasicMeasurement\",\r\n                    \"name\": \"[Fuel Level](https://developer.deere.com)\",\r\n                    \"value\": \"36\",\r\n                    \"unit\": \"%\"\r\n    }, {\r\n                    \"@type\": \"BasicMeasurement\",\r\n                    \"name\": \"[Engine Speed](https://developer.deere.com)\",\r\n                    \"value\": \"4203\",\r\n                    \"unit\": \"RPM\"\r\n    }, {\r\n                    \"@type\": \"BasicMeasurement\",\r\n                    \"name\": \"[Humidity](https://developer.deere.com)\",\r\n                    \"value\": \"22.2\",\r\n                    \"unit\": \"%\" \r\n    }, {\r\n                    \"@type\": \"BasicMeasurement\",\r\n                    \"name\": \"[Wind Speed](https://developer.deere.com)\",\r\n                    \"value\": \"11.3\",\r\n                    \"unit\": \"MPH\"\r\n    }, {\r\n                    \"@type\": \"BasicMeasurement\",\r\n                    \"name\": \"[Rain Fall](https://developer.deere.com)\",\r\n                    \"value\": \"1.5\",\r\n                    \"unit\": \"Inches\"\r\n    }, {\r\n                    \"@type\": \"BasicMeasurement\",\r\n                    \"name\": \"[Model](https://developer.deere.com)\",\r\n                    \"value\": \"300ACZ\",\r\n                    \"unit\": \"Premium\" \r\n    }, {\r\n                    \"@type\": \"BasicMeasurement\",\r\n                    \"name\": \"[Software Version](https://developer.deere.com)\",\r\n                    \"value\": \"3.0.2\",\r\n                    \"unit\": \"Beta\"                     \r\n    }]\r\n}]"
 						},
 						"url": {
 							"raw": "https://partnerapi.deere.com/platform/assets/{{ASSET_ID}}/locations",
@@ -5651,7 +5651,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": " {\r\n  \"name\": \"North 20\",\r\n  \"archived\": false,\r\n  \"farms\": {\r\n    \"farms\": [\r\n      {\r\n        \"name\": \"Miller's Central Farm\"\r\n      }\r\n    ]\r\n  },\r\n  \"clients\": {\r\n    \"clients\": [\r\n      {\r\n        \"name\": \"Miller Enterprise\"\r\n      }\r\n    ]\r\n  },\r\n  \"links\": [\r\n    {\r\n      \"@type\": \"Link\",\r\n      \"rel\": \"contributionDefinition\",\r\n      \"uri\": \"https://partnerapi.deere.com/platform/contributionDefinitions/{{NOTIFICATION_CONTRIBUTION_DEFINITION}}\"\r\n    }\r\n  ]\r\n}"
+									"raw": " {\r\n  \"name\": \"North 201\",\r\n  \"archived\": false,\r\n  \"farms\": {\r\n    \"farms\": [\r\n      {\r\n        \"name\": \"Miller's Central Farm\"\r\n      }\r\n    ]\r\n  },\r\n  \"clients\": {\r\n    \"clients\": [\r\n      {\r\n        \"name\": \"Miller Enterprise\"\r\n      }\r\n    ]\r\n  },\r\n  \"links\": [\r\n    {\r\n      \"@type\": \"Link\",\r\n      \"rel\": \"contributionDefinition\",\r\n      \"uri\": \"https://partnerapi.deere.com/platform/contributionDefinitions/{{NOTIFICATION_CONTRIBUTION_DEFINITION}}\"\r\n    }\r\n  ]\r\n}"
 								},
 								"url": {
 									"raw": "https://partnerapi.deere.com/platform/organizations/{{ORG_ID}}/fields",
@@ -6352,7 +6352,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": " {\n  \"@type\": \"Boundary\",\n  \"name\": \"Exterior Boundary\",\n  \"sourceType\": \"External\",\n  \"multipolygons\": [\n    {\n      \"@type\": \"Polygon\",\n      \"rings\": [\n        {\n          \"@type\": \"Ring\",\n          \"points\": [\n            {\n              \"@type\": \"Point\",\n              \"lat\": 49.4875,\n              \"lon\": 8.4660\n            },\n            {\n              \"@type\": \"Point\",\n              \"lat\": 49.4875,\n              \"lon\": 8.4760\n            },\n            {\n              \"@type\": \"Point\",\n              \"lat\": 49.4975,\n              \"lon\": 8.4760\n            },\n            {\n              \"@type\": \"Point\",\n              \"lat\": 49.4975,\n              \"lon\": 8.4660\n            },\n            {\n              \"@type\": \"Point\",\n              \"lat\": 49.4875,\n              \"lon\": 8.4660\n            }\n          ],\n          \"type\": \"exterior\",\n          \"passable\": true\n        }\n      ]\n    }\n  ],\n  \"active\": true,\n  \"irrigated\": false,\n  \"links\": [\n    {\n      \"@type\": \"Link\",\n      \"rel\": \"contributionDefinition\",\n      \"uri\": \"https://sandboxapi.deere.com/platform/contributionDefinitions/{{BOUNDARY_CONTRIBUTION_DEFINITION}}\"\n    }\n  ]\n}"
+									"raw": " {\n  \"@type\": \"Boundary\",\n  \"name\": \"Exterior Boundary\",\n  \"sourceType\": \"External\",\n  \"multipolygons\": [\n    {\n      \"@type\": \"Polygon\",\n      \"rings\": [\n        {\n          \"@type\": \"Ring\",\n          \"points\": [\n            {\n              \"@type\": \"Point\",\n              \"lat\": 38.6306,\n              \"lon\": -90.1922\n            },\n            {\n              \"@type\": \"Point\",\n              \"lat\": 38.6306,\n              \"lon\": -90.1822\n            },\n            {\n              \"@type\": \"Point\",\n              \"lat\": 38.6406,\n              \"lon\": -90.1822\n            },\n            {\n              \"@type\": \"Point\",\n              \"lat\": 38.6406,\n              \"lon\": -90.1922\n            },\n            {\n              \"@type\": \"Point\",\n              \"lat\": 38.6306,\n              \"lon\": -90.1922\n            }\n          ],\n          \"type\": \"exterior\",\n          \"passable\": true\n        }\n      ]\n    }\n  ],\n  \"active\": true,\n  \"irrigated\": false,\n  \"links\": [\n    {\n      \"@type\": \"Link\",\n      \"rel\": \"contributionDefinition\",\n      \"uri\": \"https://sandboxapi.deere.com/platform/contributionDefinitions/{{BOUNDARY_CONTRIBUTION_DEFINITION}}\"\n    }\n  ]\n}"
 								},
 								"url": {
 									"raw": "https://partnerapi.deere.com/platform/organizations/{{ORG_ID}}/fields/{{FIELD_ID}}/boundaries",
@@ -9604,7 +9604,7 @@
 							}
 						],
 						"url": {
-							"raw": "https://partnerapi.deere.com/platform/machines/{{MACHINE_ID}}/breadcrumbs",
+							"raw": "https://partnerapi.deere.com/platform/machines/{{MACHINE_ID}}/breadcrumbs?lastKnown=true",
 							"protocol": "https",
 							"host": [
 								"partnerapi",
@@ -9616,6 +9616,17 @@
 								"machines",
 								"{{MACHINE_ID}}",
 								"breadcrumbs"
+							],
+							"query": [
+								{
+									"key": "lastKnown",
+									"value": "true"
+								},
+								{
+									"key": "startDate",
+									"value": "2020-01-01T21:01:55.000Z",
+									"disabled": true
+								}
 							]
 						}
 					},
@@ -10843,7 +10854,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n   \"links\": [\r\n      {\r\n         \"rel\": \"owningOrganization\",\r\n         \"uri\": \"https://partnerapi.deere.com/platform/organizations/{{ORG_ID}}\"\r\n      }\r\n   ],\r\n   \"title\": \"My Map Layer\",\r\n   \"extent\": {\r\n      \"minimumLatitude\": 49.4875,\r\n      \"maximumLatitude\": 49.4975,\r\n      \"minimumLongitude\": 8.4660,\r\n      \"maximumLongitude\": 8.4760\r\n   },\r\n   \"legends\": {\r\n\t\t\"unitId\": \"seeds1ha-1\",\r\n\t\t\"ranges\": [\r\n        \t{\r\n                \"minimum\": 0,\r\n                \"maximum\": 99,\r\n                \"hexColor\": \"#0BA74A\",\r\n                \"percent\": 0.25\r\n             },\r\n             {\r\n                  \"minimum\": 100,\r\n                  \"maximum\": 199,\r\n                  \"hexColor\": \"#00BFFF\",\r\n                  \"percent\": 0.40\r\n            },\r\n            {\r\n                  \"minimum\": 200,\r\n                  \"maximum\": 299,\r\n                  \"hexColor\": \"#DC143C\",\r\n                  \"percent\": 0.15\r\n            },\r\n            {\r\n                  \"minimum\": 300,\r\n                  \"maximum\": 399,\r\n                  \"hexColor\": \"#FFFFFF\",\r\n                  \"percent\": 0.2\r\n            }\r\n    \t]\r\n    },\r\n   \"metadata\": [\r\n      {\r\n         \"name\": \"Air Temperature\",\r\n         \"value\": \"Hot\"\r\n      },\r\n      {\r\n         \"name\": \"Soil Moisture\",\r\n         \"value\": \"Low\"\r\n      },\r\n      {\r\n         \"name\": \"Soil Temperature\",\r\n         \"value\": \"Average\"\r\n      }\r\n    ]    \r\n}"
+									"raw": "{\r\n   \"links\": [\r\n      {\r\n         \"rel\": \"owningOrganization\",\r\n         \"uri\": \"https://partnerapi.deere.com/platform/organizations/{{ORG_ID}}\"\r\n      }\r\n   ],\r\n   \"title\": \"My Map Layer\",\r\n   \"extent\": {\r\n      \"minimumLatitude\": 38.6306,\r\n      \"maximumLatitude\": 38.6406,\r\n      \"minimumLongitude\": -90.1922,\r\n      \"maximumLongitude\": -90.1822\r\n   },\r\n   \"legends\": {\r\n\t\t\"unitId\": \"seeds1ha-1\",\r\n\t\t\"ranges\": [\r\n        \t{\r\n                \"minimum\": 0,\r\n                \"maximum\": 99,\r\n                \"hexColor\": \"#0BA74A\",\r\n                \"percent\": 0.25\r\n             },\r\n             {\r\n                  \"minimum\": 100,\r\n                  \"maximum\": 199,\r\n                  \"hexColor\": \"#00BFFF\",\r\n                  \"percent\": 0.40\r\n            },\r\n            {\r\n                  \"minimum\": 200,\r\n                  \"maximum\": 299,\r\n                  \"hexColor\": \"#DC143C\",\r\n                  \"percent\": 0.15\r\n            },\r\n            {\r\n                  \"minimum\": 300,\r\n                  \"maximum\": 399,\r\n                  \"hexColor\": \"#FFFFFF\",\r\n                  \"percent\": 0.2\r\n            }\r\n    \t]\r\n    },\r\n   \"metadata\": [\r\n      {\r\n         \"name\": \"Air Temperature\",\r\n         \"value\": \"Hot\"\r\n      },\r\n      {\r\n         \"name\": \"Soil Moisture\",\r\n         \"value\": \"Low\"\r\n      },\r\n      {\r\n         \"name\": \"Soil Temperature\",\r\n         \"value\": \"Average\"\r\n      }\r\n    ]    \r\n}"
 								},
 								"url": {
 									"raw": "https://partnerapi.deere.com/platform/mapLayerSummaries/{{MAP_LAYER_SUMMARY_ID}}/mapLayers",
@@ -11541,7 +11552,7 @@
 								"body": {
 									"mode": "file",
 									"file": {
-										"src": "/C:/bench/JohnDeere/DevelopWithDeere2019-Mannheim/HandsOnDemo/SampleData/maplayer.png"
+										"src": "/C:/bench/JohnDeere/DevelopWithDeere2020-StLouis/HandsOnDemo/SampleData/maplayer.png"
 									}
 								},
 								"url": {
@@ -13486,7 +13497,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"name\": \"3452AD\",\r\n  \"companyName\": \"MYCOGEN SEEDS\",\r\n  \"cropName\": \"CORN_WET\",\r\n  \"archived\": false\r\n}"
+							"raw": "{\r\n  \"name\": \"3452AD5\",\r\n  \"companyName\": \"A-1 SEEDS\",\r\n  \"cropName\": \"CORN_WET\",\r\n  \"archived\": false\r\n}"
 						},
 						"url": {
 							"raw": "https://partnerapi.deere.com/platform/organizations/{{ORG_ID}}/varieties",
